@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Rayal Park</title>
+    <title>Web Design Mastery | Royal Park</title>
   </head>
   <body>
     <header class="header">
@@ -26,9 +26,10 @@
           <li><a href="#about">About</a></li>
           <li><a href="#service">Services</a></li>
           <li><a href="#explore">Explore</a></li>
+          <li><a href="#blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="btn nav__btn">Book Now</button>
+        <button class="btn nav__btn" onclick="location.href='landing.html';">Book Now</button>
       </nav>
       <div class="section__container header__container" id="home">
         <p>Simple - Unique - Friendly</p>
@@ -147,7 +148,45 @@
         </div>
       </div>
     </section>
-
+    <section class="section__container blog__container" id="blog">
+      <p class="section__subheader">BLOG</p>
+      <h2 class="section__header">Latest News & Insights</h2>
+      <div class="blog__grid">
+        <!-- Blog Post 1 -->
+        <div class="blog__card">
+          <img src="assets/blog1.jpg" alt="Luxury Hotel Tips" />
+          <h4>5 Expert Tips to Make Your Hotel Stay Unforgettable</h4>
+          <p>
+            Want to elevate your travel experience? These expert tips will help you make the most of your stay at any luxury hotel.
+          </p>
+          <ul>
+            <li><b>Choose the right room:</b> Opt for suites with views or extra amenities for a memorable experience.</li>
+            <li><b>Maximize concierge services:</b> Use the concierge to plan local experiences, make restaurant reservations, or arrange transportation.</li>
+            <li><b>Ask about upgrades:</b> Hotels often offer upgrades at reduced rates during check-in.</li>
+            <li><b>Explore hidden gems:</b> Ask staff for recommendations on lesser-known attractions and local hotspots.</li>
+            <li><b>Stay connected:</b> Leverage hotel apps to access exclusive deals and room services with ease.</li>
+          </ul>
+        </div>
+    
+        <!-- Blog Post 2 -->
+        <div class="blog__card">
+          <img src="assets/blog2.jpg" alt="Local Attractions" />
+          <h4>Top 7 Must-See Attractions Around Royal Park Hotel</h4>
+          <p>
+            Discover the best attractions near our hotel that will make your trip unforgettable. From cultural landmarks to nature escapes, there’s something for everyone.
+          </p>
+          <ul>
+            <li><b>Historical Museum:</b> Learn about the rich history and culture of the region at this iconic museum.</li>
+            <li><b>Seaside Promenade:</b> A perfect spot for relaxing walks and breathtaking sunset views.</li>
+            <li><b>Adventure Park:</b> Ideal for thrill-seekers with zip lines, rock climbing, and adventure trails.</li>
+            <li><b>Local Food Markets:</b> Savor authentic regional cuisine and shop for unique souvenirs.</li>
+            <li><b>Botanical Gardens:</b> A tranquil retreat showcasing exotic plants and serene landscapes.</li>
+            <li><b>Art District:</b> Explore local art galleries, street murals, and creative workshops.</li>
+            <li><b>Mountain Trekking:</b> For nature enthusiasts, nearby trails offer stunning panoramic views.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section class="service" id="service">
       <div class="section__container service__container">
         <div class="service__content">
@@ -215,7 +254,7 @@
             our curated selection of hotels, making every moment of your getaway
             truly extraordinary.
           </p>
-          <button class="btn">Book Now</button>
+          <button class="btn" onclick="location.href='landing.html';">Book Now</button>
         </div>
         <div class="footer__col">
           <h4>QUICK LINKS</h4>
